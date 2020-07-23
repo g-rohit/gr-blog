@@ -1,0 +1,61 @@
+html {
+  scroll-behavior: smooth;
+  position: relative;
+  min-height: 100vh;
+}
+.container#content {
+  margin-top: 60px;
+}
+body {
+  background-color: $light-gray;
+  font-family: $site-font;
+  position: relative;
+ 
+}
+a {
+  color: #0056b3;
+  &:hover {
+    color: #007bff;
+    text-decoration: none;
+  }
+}
+ 
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.navbar {
+  background-color: white;
+  // border-right: 1px solid rgba(0, 0, 0, 0.4);
+  // border-left: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  line-height: 1;
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
+  color: #0056b3;
+  &:hover {
+    color: #007bff;
+  }
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.bg-navyblue {
+  background-color: $navyblue !important;
+  color: $white !important;
+
+  a {
+  color: $white !important;
+
+  &:hover {
+    opacity: 0.8;
+  }
+  }
+}
+
+.navbar-toggler-icon {
+  background-image: url('white-navbar-icon.svg');
+}
