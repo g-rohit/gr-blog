@@ -7,11 +7,11 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
+  // NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-   NavbarText
+  // NavLink,
+  //  NavbarText
 } from 'reactstrap';
 
 
