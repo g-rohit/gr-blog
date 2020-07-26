@@ -10,3 +10,16 @@ ul.post-tags {
     margin-right: 10px;
   }
 }
+
+.card-title {
+  display: inline-block;
+  
+  a {
+    // transition: all 0.3s ease;
+    &:hover {
+      font-weight: 500;
+    color: $purple !important;
+    // transition: all 0.3s ease;
+      }
+}
+}

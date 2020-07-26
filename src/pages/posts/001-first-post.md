@@ -2,6 +2,7 @@
 title: 'Day 1'
 date: '2020-07-21' 
 author: 'Rohit'
+image: '../../images/image_1920_1080.png'
 path: '/first-post'
 tags: 'latest, 100DaysOfCode'
 
