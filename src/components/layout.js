@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import Footer from '../components/footer'
 import Header from "./header"
 // import "./layout.css"
 import '../styles/index.scss'
@@ -26,16 +26,13 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" />
+        <Header siteTitle={data.site.siteMetadata.title} />
       <div className="container" id="content">
         <main>{children}</main>
         
       </div>
-      <footer className="text-center site-footer">
-          © G Rohit {new Date().getFullYear()}, Built with ❤️ using
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+      <Footer/>
     </>
   )
 }

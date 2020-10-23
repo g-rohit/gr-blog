@@ -7,6 +7,7 @@ path: '/second-post'
 tags: 
 - 100DaysOfCode
 - design
+- css hacks
 ---
 
 # wasuupp - welcome to second post

@@ -29,8 +29,10 @@ ul.post-tags {
 .badge-custom {
   color: #5700ff;
   background-color: #5700ff10;
-font-weight: normal;
-padding: 5px;
+  font-weight: normal;
+  padding: 5px;
+  text-transform: uppercase;
+
   &:hover {
     color: #fff;
     background-color: #5700ff;

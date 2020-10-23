@@ -1,7 +1,7 @@
 html {
   scroll-behavior: smooth;
   position: relative;
-  min-height: 100vh;
+ 
 }
 .container#content {
   margin-top: 60px;
@@ -10,7 +10,7 @@ body {
   background-color: $light-gray;
   font-family: $site-font;
   position: relative;
- 
+  min-height: 100vh;
 }
 a {
   color: #0056b3;
@@ -61,4 +61,23 @@ ul {
 }
 .navbar-toggler-icon {
   background-image: url('white-navbar-icon.svg');
+}
+
+.external__link, .email {
+  display: inline-block;
+  border-radius: 0 !important;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.external__link:hover, .email:hover {
+  display: inline-block;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s;
+  border-radius: 0 !important;
+  text-decoration: none;
+}
+
+.external__link {
+  border-bottom: 1px solid;
 }

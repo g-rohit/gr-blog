@@ -31,7 +31,7 @@ const Post = ({ title, author, path, date, body, tags , fluid, timeToRead}) => {
           )) } 
           
         </ul>
-         <span>Reading time: {timeToRead}</span>
+         <small>Reading time: {timeToRead} min</small>
         <Link to={path} className="btn btn-outline-dark rounded float-right" >
           Read More
         </Link>
