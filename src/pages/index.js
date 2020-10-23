@@ -32,8 +32,8 @@ const IndexPage = () => (
         )
     }}/>
    </Col>  
-   <Col md="4">
-     
+   <Col md="4" className="bg-light">
+     Ads / other stuff over here
    </Col>  
    </Row>
 
@@ -53,9 +53,10 @@ const indexQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             title
+            tags
             image {
               childImageSharp {
-                fluid(maxWidth: 1000) {
+                fluid(maxWidth: 650, maxHeight: 371) {
                   ...GatsbyImageSharpFluid
                 }
               }

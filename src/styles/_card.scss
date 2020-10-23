@@ -1,6 +1,7 @@
 .card {
   margin-bottom: 30px;
 }
+
 ul.post-tags {
   padding: 0;
   display: inline-flex;
@@ -13,13 +14,25 @@ ul.post-tags {
 
 .card-title {
   display: inline-block;
-  
+
   a {
+
     // transition: all 0.3s ease;
     &:hover {
       font-weight: 500;
-    color: $purple !important;
-    // transition: all 0.3s ease;
-      }
+      color: $purple !important;
+      // transition: all 0.3s ease;
+    }
+  }
 }
+
+.badge-custom {
+  color: #5700ff;
+  background-color: #5700ff10;
+font-weight: normal;
+padding: 5px;
+  &:hover {
+    color: #fff;
+    background-color: #5700ff;
+  }
 }

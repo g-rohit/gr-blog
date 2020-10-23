@@ -2,10 +2,11 @@
 title: 'Day 2'
 date: '2020-07-22'
 author: 'Rohit'
-image: '../../images/image_1920_1080.png'
+image: '../../images/car.jpg'
 path: '/second-post'
-tags: 'new, 100DaysOfCode'
-
+tags: 
+- 100DaysOfCode
+- design
 ---
 
 # wasuupp - welcome to second post

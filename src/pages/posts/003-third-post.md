@@ -4,7 +4,10 @@ date: '2020-07-23'
 author: 'Rohit'
 path: '/third-post'
 image: '../../images/flower.jpg'
-tags: 'blog, 100DaysOfCode'
+tags: 
+- 100DaysOfCode
+- test
+- javascript
 ---
 
 # Third one
