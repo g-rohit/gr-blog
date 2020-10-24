@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth;
+  // scroll-behavior: smooth;
   position: relative;
  
 }
@@ -13,9 +13,9 @@ body {
   min-height: 100vh;
 }
 a {
-  color: #0056b3;
+  color: inherit;
   &:hover {
-    color: #007bff;
+    // color: #007bff;
     text-decoration: none;
   }
 }
@@ -24,6 +24,14 @@ h1 {
   margin-bottom: 20px;
   text-align: center;
 }
+h1,h2,h3,h4,h5,h6{
+font-weight: 700;
+}
+
+// p{
+//   font-weight: 500;
+// }
+
 .navbar {
   background-color: white;
   // border-right: 1px solid rgba(0, 0, 0, 0.4);
@@ -59,6 +67,11 @@ ul {
 .text-purple {
   color: $purple;
 }
+
+.text-navyblue{
+  color: $navyblue;
+}
+
 .navbar-toggler-icon {
   background-image: url('white-navbar-icon.svg');
 }

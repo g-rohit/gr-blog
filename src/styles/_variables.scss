@@ -1,12 +1,20 @@
 // @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Hind+Siliguri:300,400,500,600,700&display=swap');
+// @import url('https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap');
+
 
 // $site-font: 'Raleway', sans-serif;
-
+// $site-font: 'Hack', monospace;
+// $site-font: 'Hammersmith One', sans-serif;
 $site-font: 'Work Sans', sans-serif;
+// $site-font: 'Poppins', sans-serif;
+$site-font: 'Chivo', sans-serif;
 
-$light-gray: rgb(240, 240, 240);
-$dark-gray: rgb(80, 80, 80);
+$light-gray: #f0f0f0;
+$dark-gray: #505050;
 $white: white;
 $navyblue: #0f0f6d;
 $purple: #5700ff;

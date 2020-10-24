@@ -1,5 +1,14 @@
 .card {
   margin-bottom: 30px;
+  transition-timing-function: ease-in;
+  transition-duration: .3s;
+  transform: translateY(0);
+  &:hover {
+    box-shadow: 0 6px 25px 5px #00000015;
+    transition-timing-function: ease-in;
+    transition-duration: .3s;
+    transform: translateY(-5px);
+  }
 }
 
 ul.post-tags {
@@ -27,14 +36,31 @@ ul.post-tags {
 }
 
 .badge-custom {
-  color: #5700ff;
+  color: $purple;
   background-color: #5700ff10;
   font-weight: normal;
   padding: 5px;
   text-transform: uppercase;
 
   &:hover {
-    color: #fff;
-    background-color: #5700ff;
+    color: $white;
+    background-color: $purple;
+  }
+}
+
+.gr-card-footer {
+  transition: all .5s;
+  background: $navyblue;
+  color: $white;
+  text-transform: uppercase;
+  border-radius: 0 0 3px 3px;
+
+  a {
+    color: $white;
+  }
+
+  &:hover {
+    color: $white;
+    background-color: $purple;
   }
 }

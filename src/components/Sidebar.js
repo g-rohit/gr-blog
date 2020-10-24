@@ -33,7 +33,7 @@ const sidebar = () => (
             name="user-email-address"
             placeholder="Enter your email ID"
           />
-          <button type="submit" class="btn btn-secondary mt-2 w-100">
+          <button type="submit" className="btn btn-secondary mt-2 w-100">
             Subscribe
           </button>
         </FormGroup>

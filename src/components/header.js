@@ -37,10 +37,9 @@ const Header = ({ siteTitle }) => {
               </NavItem>
               <NavItem>
               <Link to="/tags/" className="nav-link">Tags</Link>
- 
-              </NavItem>
+               </NavItem>
               <NavItem>
-              <Link to="/team/" className="nav-link">Teams</Link>
+              <Link to="/projects/" className="nav-link">Projects</Link>
               </NavItem>
               <NavItem>
               <Link to="/about/" className="nav-link">About</Link>
